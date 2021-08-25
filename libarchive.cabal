@@ -117,6 +117,8 @@ library
     if !flag(system-libarchive)
         -- version 3.5.0
         c-sources:
+          ./c/archive_write_set_format_cpio_binary.c
+          ./c/archive_write_set_format_cpio_odc.c
           ./c/archive_acl.c
           ./c/archive_blake2sp_ref.c
           ./c/archive_blake2s_ref.c
